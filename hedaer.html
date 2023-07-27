@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white; font-size: 20px;" >Jewellery</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="color: white;">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true" style="color: white;">News</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
+                    
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 400px;">
+                <img src= "https://t4.ftcdn.net/jpg/04/00/55/41/360_F_400554105_C02dlzEObIRahY61GO6r66hQyEchuGBx.jpg"
+                    alt="..." height="100%" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 400px;">
+                <img src="https://img.freepik.com/premium-photo/wedding-rings-bokeh-background-shallow-dofgenerative-ai_391052-14184.jpg"
+                    height="100%" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 400px;">
+                <img src="https://t4.ftcdn.net/jpg/02/96/90/55/360_F_296905533_isLklVFYJZF7WrdUU85Z64R1i3oEOqRw.jpg"
+                    class="d-block w-100" height="100%" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- image test -->
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQl1PhzGb1_VLhWOuvx9o7Tkg8kFryO2F_FvnErF_3qLDuoc9SotRfsAskc6JF8QHD0U&usqp=CAU" alt="" class="sub1">
+        <div class="sub">
+            <h3>Diamond</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, alias delectus vitae tempore, harum a eum possimus quidem quisquam illum nesciunt. Ipsum harum atque fugiat asperiores ducimus? Culpa exercitationem vitae provident consequatur commodi numquam quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nesciunt corporis officiis, assumenda hic placeat? Reiciendis, enim sit? Ea Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolorem vel, omnis quis nemo doloribus pariatur asperiores quasi odit facilis cupiditate ipsam aliquid obcaecati exercitationem a quae distinctio. Nisi, a?</p>
+        </div>
+    </div>
+
+    <div class="container">
+       
+        <div class="sub">
+            <h3>Diamond</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, alias delectus vitae tempore, harum a eum possimus quidem quisquam illum nesciunt. Ipsum harum atque fugiat asperiores ducimus? Culpa exercitationem vitae provident consequatur commodi numquam quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nesciunt corporis officiis, assumenda hic placeat? Reiciendis, enim sit? Ea Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolorem vel, omnis quis nemo doloribus pariatur asperiores quasi odit facilis cupiditate ipsam aliquid obcaecati exercitationem a quae distinctio. Nisi, a?</p>
+        </div>
+        <img src="https://media.istockphoto.com/id/1047601114/photo/golden-bracelets-and-earrings-with-pearls-on-pink-and-white-background.jpg?s=612x612&w=0&k=20&c=Q4Q-J-pCtZRF06rnJYZbCQtn_fRVKXvX2HQhf4NgSfE=" alt="" class="sub1">
+    </div>
+
+    <div class="container">
+        <img src="https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-illustrated-jewellery-e-commerce-green-fresh-poster-background-image_144061.jpg" alt="" class="sub1">
+        <div class="sub">
+            <h3>Diamond</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, alias delectus vitae tempore, harum a eum possimus quidem quisquam illum nesciunt. Ipsum harum atque fugiat asperiores ducimus? Culpa exercitationem vitae provident consequatur commodi numquam quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nesciunt corporis officiis, assumenda hic placeat? Reiciendis, enim sit? Ea Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolorem vel, omnis quis nemo doloribus pariatur asperiores quasi odit facilis cupiditate ipsam aliquid obcaecati exercitationem a quae distinctio. Nisi, a?</p>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="menu">
+    <div class="card" style="width: 18rem;">
+        <img src="https://png.pngtree.com/background/20210710/original/pngtree-taobao-jewelry-fresh-and-simple-gold-jewelry-poster-picture-image_1034493.jpg"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://zeevector.com/wp-content/uploads/Gold-Jewellery-Background.jpg"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://static-cdn5-2.vigbo.tech/u3760/21552/blog/4963071/4125837/52980196/500-leonovaolga-saltstudio-eb1083d4c6a08a59268c58280bc2c8b2.jpg"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images.pexels.com/photos/3266700/pexels-photo-3266700.jpeg?cs=srgb&dl=pexels-dima-valkov-3266700.jpg&fm=jpg"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- form -->
+<div class="some">
+<form class="row g-3 needs-validation" novalidate>
+    <h1>Get In Touch</h1>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">State</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+  </div>
+
+  <section class="">
+    <!-- Footer -->
+    <footer class="bg-secondary text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row" style="background-color: rgb(76, 78, 78);">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Footer Content</h5>
+  
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+              aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About Us</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">About us1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">About us1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">About us3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">About us4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Contact Us</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Contact Us1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Contact Us2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Contact Us3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Contact Us4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </section>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="header.js"></script>
+
+</html>
